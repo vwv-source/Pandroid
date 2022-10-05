@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Pandroid</title>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="statusbar">
+            <p class="statustime">15:00</p>
+            <div class="rightstatus">
+                <div class="statusicon" id="battery"></div>
+                <div class="statusicon" id="signal"></div>
+            </div>
+        </div>
+        <div class="homescreencontainer">
+            <div class="iconcontainer"></div>
+            <div class="dockcontainer">
+                <div class="dockicon"></div>
+                <div class="dockicon"></div>
+                <div class="dockicon"></div>
+                <div class="dockicon"></div>
+                <div class="dockicon"></div>
+                <div class="searchbar"></div>
+            </div>
+        </div>
+        <div class="navigationbar">
+            <input type="button" value="◀" class="navbutton">
+            <input type="button" value="◉" class="navbutton">
+            <input type="button" value="◼" class="navbutton">
+        </div>
+        <div class="qscontainer">
+            <div class="qstopcontainer" music="">
+                <p class="qstime">2:00 am</p>
+                <p class="qsdate">Wed, 5 Oct</p>
+                <div class="qsrightstatus">
+                    <p class="batterpercent">69%</p>
+                    <div class="qsstatusicon" id="battery"></div>
+                    <div class="qsstatusicon" id="signal"></div>
+                </div>
+                <div class="qsiconcontainer">
+                    <div class="qsicon" style="background-color: rgb(87, 132, 255);"></div>
+                    <div class="qsicon" style="background-color: rgb(87, 132, 255);"></div>
+                    <div class="qsicon"></div>
+                    <div class="qsicon"></div>
+                    <div class="qsicon"></div>
+                    <div class="qsicon"></div>
+                </div>
+                <div class="musicplayercontainer">
+                    <div class="musicplayertop">
+                        <div class="musicplayericon"></div>
+                        <p class="musicplayertext">Spotify</p>
+                    </div>
+                    <div class="musicinfo">
+                        <div class="musicpicture"></div>
+                        <p class="musictitle">Soft Goth</p>
+                        <p class="musicartist">Astrophysics</p>
+                    </div>
+                    <div class="musicplayercontrols">
+                        <input type="button" value="◀" class="musiccontrolbutton">
+                        <input type="button" value="||" class="musiccontrolbutton">
+                        <input type="button" value="▶" class="musiccontrolbutton">
+                    </div>
+                </div>
+            </div>
+            <div class="qsnotificationscontainer" music="">
+                <p class="notificationcategorytitle">Silent</p>
+                <div class="notificationcontainer">
+                    <div class="notificationheadercontainer">
+                        <div class="notificationicon"></div>
+                        <p class="notificationname">Internet Speed Meter Lite</p>
+                    </div>
+                    <div class="notificationcontent">
+                        <p class="notificationtext">Speed: 0 B/s</p>
+                        <p class="notificationtext">Mobile: 3.2 MB &nbsp;&nbsp;WiFi: 2.08 GB</p>
+                    </div>
+                </div>
+                <div class="notificationcontainer">
+                    <div class="notificationheadercontainer">
+                        <div class="notificationicon"></div>
+                        <p class="notificationname">Internet Speed Meter Lite</p>
+                    </div>
+                    <div class="notificationcontent">
+                        <p class="notificationtext">Speed: 0 B/s</p>
+                        <p class="notificationtext">Mobile: 3.2 MB &nbsp;&nbsp;WiFi: 2.08 GB</p>
+                    </div>
+                </div>
+               <!--  <p class="qsnonotificationstext">No Notifications</p> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="JS/main.js"></script>
+</html>
